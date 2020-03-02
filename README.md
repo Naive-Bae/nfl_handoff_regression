@@ -6,7 +6,7 @@ The objective of this project is twofold: first, to use data from the 2017 & 201
 
 ### The Data
 
-The data set was furnished by the NFL. It contains the 49 features listed below. Each row in the file corresponds to a single player's involvement in a single play. The player is assigned a unique `PlayerId`, and the play is assigned its own unique `PlayId`. Therefore, each play is comprised of 22 rows: one for each player on the field--both offense and defense. All the columns are contained in one large dataframe which is grouped by PlayId.  
+The data set was furnished by the NFL. It contains the 49 features listed below. Each row in the file corresponds to a single player's involvement in a single play. The player is assigned a unique `PlayerId`, and the play is assigned its own unique `PlayId`. Therefore, each play is comprised of 22 rows: one for each player on the field--both offense and defense. All the columns are contained in one large dataframe which is grouped by `PlayId`.  
 
 The data includes game-level circumstantial features, such as weather, temperature, playing surface, location, etc.; player-level features, such as the player's name, team, number, height, weight, position, etc.; and play-level features, such as time of snap, time of handoff, down number, and yardage gained on the play (our target). The Next Gen Stats system uses chips that are embedded into the shoulder pads of each player as well as the ball to provide additional measurements that are specific to each player for each play, like the player's, orientation, distance covered and acceleration (calculated from the last 0.1 seconds of play).
    
@@ -61,3 +61,5 @@ The data includes game-level circumstantial features, such as weather, temperatu
 `Yards` - the yardage gained on the play    
 
 ![Imgur](https://i.imgur.com/5VEBeJD.png)
+
+![Imgur](https://i.imgur.com/sxPAmzm.png)
